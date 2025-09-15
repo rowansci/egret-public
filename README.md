@@ -20,7 +20,7 @@ We provide three general-purpose models, released under the MIT license:
 
 We also provide 2 smaller versions of the Egret-1 model under the same MIT license:
 - **Egret-1S** — invariant-only with 92 spherical channels; fastest model with smallest memory footprint
-- **Egret-1M** — low-resolution equivariance with 128 spherical channels;faster equivariant model with a smaller memory footprint than Egret-1
+- **Egret-1M** — low-resolution equivariance with 128 spherical channels; fast equivariant model with a smaller memory footprint
 
 ## Example: Using Egret-1 with ASE
 Egret-1 is compatible with the [Atomic Simulation Environment](https://wiki.fysik.dtu.dk/ase/) interface. The following is an example using the `mace_off` calculator from the [`mace-torch`](https://github.com/ACEsuit/mace) package:
