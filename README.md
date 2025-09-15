@@ -56,13 +56,13 @@ equivariant_descriptor = calculator.models[0](
 To extract the invariant descriptors (Egret-1S descriptors are already invariant):
 
 ```python
-//standard models, shape = [Lx384]
+#standard models, shape = [Lx384]
 invariant_descriptor = torch.cat([
     full_descriptor[:, :192],
     full_descriptor[:, -192:],
 ], dim=1)
 
-//Egret-1M, shape = [Lx256]
+#Egret-1M, shape = [Lx256]
 invariant_descriptor = torch.cat([
     full_descriptor[:, :128],
     full_descriptor[:, -128:],
