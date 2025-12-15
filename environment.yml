@@ -7,4 +7,4 @@ dependencies:
   - pytorch
   - pip
   - pip:
-    - mace-torch==0.3.12
+    - mace-torch>=0.3.14

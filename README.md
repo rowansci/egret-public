@@ -87,3 +87,4 @@ python example.py
 
 These models can run on either CPU or GPU. 
 
+**Note:** Egret checkpoints do not provide edge forces or atomic stress/virial outputs (`atomic_stresses`/`atomic_virials` are `None`).
